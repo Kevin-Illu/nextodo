@@ -1,0 +1,9 @@
+.dragg-container {
+    height: 100%;
+    padding: .4rem;
+}
+
+.dragging {
+    border: solid 2px #fff;
+    border-style: dashed;
+}
