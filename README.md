@@ -13,3 +13,15 @@ docker-compose up -d
 ```bash
 mongodb://localhost:27017/entriesdb
 ```
+
+## Configurar variables de entorno
+
+Renombrar el archivo `.env.tempalte` a `.env`
+
+## Llenar la base de datos con informacion de pruebas
+
+Llamar:
+
+```url
+http://localhost:3000/api/seed
+```
